@@ -1,0 +1,206 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.contactUs__container-nav
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+.contactUs__nav-logoContainer
+{
+    position: relative;
+    top: 0px;
+    left: 120px;
+}
+
+.contactUs__nav-logoContainer-name
+{
+    position: absolute;
+    color: white;
+    font-weight: 900;
+    top: 15px;
+    left: 65px;
+}
+
+
+.contactUs__nav-listContainer
+{
+    position: absolute;
+    width: 500px;
+    right: 120px;
+}
+
+.contactUs__nav-listContainer-list
+{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+.contactUs__nav-listContainer-item
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+
+.contactUs__nav-listContainer-itemholder :hover
+{
+    color: #9f7de8; 
+    transition: 0.5s;
+}
+
+.contactUs__container-body-tittleContainer
+{
+    height: 170px;
+    width: 100%;
+    background-color: black;
+    position: relative; 
+    display: flex;
+}
+
+.contactUs__container-body-tittle
+{
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    font-weight: 900;
+    top:-30px;
+    left: 90px;
+}
+
+.contactUs__container-body-infor
+{
+    background-color: black;
+    width: 750px;
+}
+
+.contactUs__container-body-infor-subtittle, 
+.contactUs__container-body-infor-inforContainer-email,
+.contactUs__container-body-infor-inforContainer-phone,
+.contactUs__container-body-infor-inforContainer-address,
+.contactUs__container-body-infor-map
+{
+    position: relative;
+    color: white;
+    left: 90px;
+    font-weight: 700;
+
+}
+
+.contactUs__container-body-infor-subtittle,
+.contactUs__container-body-infor-inforContainer-address
+{
+    padding-bottom: 40px;
+}
+
+.contactUs__container-body
+{
+    display: flex;
+}
+
+.contactUs__container-body-form-name,
+.contactUs__container-body-form-info
+{
+    display: flex;
+}
+.contactUs__container-body-form-message
+{
+    display: flex;
+    flex-direction: column;
+}
+.contactUs__container-body-form-nameholder,
+.contactUs__container-body-form-infoholder
+{
+    display: flex;
+    flex-direction: column;
+    left: 5px;
+}
+
+.contactUs__container-body-form-label
+{
+    color: white;
+    font-size: 17px;
+    position: relative;
+    left: 20px;
+    margin: 10px 0;
+
+}
+
+#contactUs__container-body-form-name-first,
+#contactUs__container-body-form-info-email
+{
+    background-color: black;
+    border-radius: 20px 0 0 0;
+    border-color: #8858ed;
+    height: 45px;
+    width: 200px;
+    
+}
+
+
+
+#contactUs__container-body-form-name-last,
+#contactUs__container-body-form-info-phone
+{
+    background-color: black;
+    border-radius: 0 20px 0 0;
+    border-color: #8858ed;
+    height: 45px;
+    width: 200px;
+}
+
+#contactUs__container-body-form-info-email,
+#contactUs__container-body-form-info-phone
+{
+    border-radius: 0 0 0 0;
+}
+
+.contactUs__container-body-form
+{
+    position: relative;
+    left: 180px;
+    top: 40px;
+}
+
+
+
+#contactUs__container-body-form-mesage-input
+{
+    background-color: black;
+    border-color: #8858ed;
+    height: 200px;
+    width: 410px;
+}
+
+.contactUs__container-body-form-mesage-submit
+{
+    background-color: #8858ed;
+    border-radius: 0 0 20px 20px;
+    border-color: transparent;
+    height: 50px;
+    width: 417px;
+    color: white;
+    font-weight: 600;
+}
+
+.contactUs__container-body-form-mesage-submit:hover
+{
+    border-color: white;
+    cursor: pointer;
+}
