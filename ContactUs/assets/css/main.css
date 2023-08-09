@@ -173,7 +173,7 @@ body
     border-radius: 0 0 0 0;
 }
 
-
+#contactUs__container-body-form-name-first:hover,
 #contactUs__container-body-form-info-email:hover,
 #contactUs__container-body-form-info-phone:hover,
 #contactUs__container-body-form-name-last:hover,
@@ -276,6 +276,21 @@ body
     transition: all 1.5s ease;
 }
 
+.contactUs__container-questionContainer-tittle-searchBox
+{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 128px;
+    left: 610px;
+    transition: all 1s ease;
+}
+
+.contactUs__container-questionContainer-tittle-searchBox.open
+{
+    z-index: -2;
+}
+
 .contactUs__container-questionContainer-searchBox.open
 {
     width: 900px;
@@ -290,9 +305,15 @@ body
     background-color: transparent;
     border: 1px solid white;
     outline-color: transparent;
+    cursor: pointer;
+    transition: all 0.2s ease;
 }
 
-
+.contactUs__container-questionContainer-searchBox-btn:hover
+{
+    background-color: #333;
+    outline: 1px solid white;
+}
 
 .contactUs__container-questionContainer-searchBox-input
 {
@@ -304,5 +325,173 @@ body
     color: white;
     outline: none;
     padding-left: 30px;
+}
 
+/* button block */
+.contactUs__container-questionContainer-buttonHolder
+{
+    position: absolute;
+    width: 700px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    top: 190px;
+    left: 250px;
+}
+
+.contactUs__container-questionContainer-buttonHolder-generalBox,
+.contactUs__container-questionContainer-buttonHolder-settingBox
+{
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.contactUs__container-questionContainer-buttonHolder-generalBox:hover,
+.contactUs__container-questionContainer-buttonHolder-settingBox:hover
+{
+    cursor: pointer;
+    color: #8858ed;
+}
+
+.contactUs__container-questionContainer-buttonHolder-generalBox
+{
+    margin-right: 15px;
+}
+
+/* Switch Info Block */
+.contactUs__container-questionContainer-switchInfoHolder
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    width: 1000px;
+    top: 250px;
+    left: 250px;
+   
+}
+
+
+
+.contactUs__container-questionContainer-switchInfoHolder.clickSwitchButton
+{
+    opacity: 0;
+}
+
+.contactUs__container-questionContainer-switch1,
+.contactUs__container-questionContainer-switch2,
+.contactUs__container-questionContainer-switch3
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.contactUs__container-questionContainer-switch1Button,
+.contactUs__container-questionContainer-switch2Button,
+.contactUs__container-questionContainer-switch3Button
+{
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 1000px;
+}
+
+.contactUs__container-questionContainer-switch1Button:hover,
+.contactUs__container-questionContainer-switch2Button:hover,
+.contactUs__container-questionContainer-switch3Button:hover
+{
+    cursor: pointer;
+    color: #73777B;
+}
+
+
+.contactUs__container-questionContainer-switch1Button,
+.contactUs__container-questionContainer-switch1IconHolder,
+.contactUs__container-questionContainer-switch2Button,
+.contactUs__container-questionContainer-switch2IconHolder,
+.contactUs__container-questionContainer-switch3Button,
+.contactUs__container-questionContainer-switch3IconHolder,
+.contactUs__container-questionContainer-devideCross
+{
+    margin-bottom: 25px;
+}
+
+.contactUs__container-questionContainer-switch1IconHolder,
+.contactUs__container-questionContainer-switch2IconHolder,
+.contactUs__container-questionContainer-switch3IconHolder
+{
+    margin-top: 25px;
+}
+
+.contactUs__container-questionContainer-switch1Icons,
+.contactUs__container-questionContainer-switch2Icons,
+.contactUs__container-questionContainer-switch3Icons
+{
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.contactUs__container-questionContainer-switch1IconHolder,
+.contactUs__container-questionContainer-switch2IconHolder,
+.contactUs__container-questionContainer-switch3IconHolder
+{
+    opacity: 0;
+}
+
+
+.contactUs__container-questionContainer-switch1IconHolder.switchInfoSubHolder-Change,
+.contactUs__container-questionContainer-switch2IconHolder.switchInfoSubHolder-Change2,
+.contactUs__container-questionContainer-switch3IconHolder.switchInfoSubHolder-Change3
+{
+    opacity: 1;
+}
+
+
+.contactUs__container-questionContainer-switch1Content,
+.contactUs__container-questionContainer-switch2Content,
+.contactUs__container-questionContainer-switch3Content
+{
+    color: white;
+    font-size: 0px;
+}
+
+
+.contactUs__container-questionContainer-switch1Content.switchInfoSubHolder-Change,
+.contactUs__container-questionContainer-switch2Content.switchInfoSubHolder-Change2,
+.contactUs__container-questionContainer-switch3Content.switchInfoSubHolder-Change3
+{
+    font-size: 15px;
+}
+
+.contactUs__container-questionContainer-devideCross
+{
+    
+    height: 2px;
+    width: 100%;
+    background-color: #8858ed;
+}
+
+.contactUs__container-questionContainer-switchInfoSubHolder,
+.contactUs__container-questionContainer-switchInfoSubHolder2,
+.contactUs__container-questionContainer-switchInfoSubHolder3
+{
+    background-color: transparent;
+    height: 0px;
+}
+
+.contactUs__container-questionContainer-switchInfoSubHolder.switchInfoSubHolder-Change,
+.contactUs__container-questionContainer-switchInfoSubHolder2.switchInfoSubHolder-Change2,
+.contactUs__container-questionContainer-switchInfoSubHolder3.switchInfoSubHolder-Change3
+{
+    height: 100px;
 }
