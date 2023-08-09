@@ -12,6 +12,9 @@ var iconInfoDic3 = document.querySelector('.contactUs__container-questionContain
 
 
 
+
+
+
 var settingUpButton = document.querySelector('.contactUs__container-questionContainer-buttonHolder-settingBox')
 var switchInfo_main_Holder = document.querySelector('.contactUs__container-questionContainer-switchInfoHolder')
 
@@ -51,4 +54,17 @@ switchInfo_btn.addEventListener('click', function() {
 
 settingUpButton.addEventListener('click', function() {
     switchInfo_main_Holder.classList.toggle('clickSwitchButton')
+   
+})
+
+var messageButton = document.querySelector('.contactUs__container-COntainerFixedButton-btn')
+var messageBlock = document.querySelector('.contactUs__container-COntainerFixedButton')
+var contactUs__container_COntainerFixedButton_nav_btn = document.querySelector('.contactUs__container-COntainerFixedButton-nav-btn') 
+
+messageButton.addEventListener('click', function() {
+    messageBlock.classList.add('appearBlock')
+})
+
+contactUs__container_COntainerFixedButton_nav_btn.addEventListener('click', function() {
+    messageBlock.classList.remove('appearBlock')
 })
