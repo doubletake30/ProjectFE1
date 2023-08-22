@@ -1,0 +1,316 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.contactUs__container-nav
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+.contactUs__nav-logoContainer
+{
+    position: relative;
+    top: 0px;
+    left: 120px;
+}
+
+.contactUs__nav-logoContainer-name
+{
+    position: absolute;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    top: 15px;
+    left: 65px;
+}
+/* --------------------Menu Responsive--------------- */
+.contactUs__nav-listContainer2
+{
+    background-color: black;
+    width: 750px;
+    height: 300px;
+    display: none;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    left: px;
+    border: 1px solid white;
+    transition: all 0.3 ease;
+}
+.contactUs__nav-listContainer2.openMenu
+{
+    display: flex;
+}
+.contactUs__nav-listContainer-list2
+{
+    list-style: none;
+    position: relative;
+    left: 300px;
+}
+.contactUs__nav-listContainer-itemholder2
+{
+    margin: 35px 8px;
+}
+.contactUs__nav-listContainer-Menubtn
+{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border: 1px solid white;
+    text-align: center;
+    display: none;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+    right: 100px;
+    padding-top: 5px;
+}
+.contactUs__nav-listContainer-Menubtn:hover
+{
+    cursor: pointer;
+}
+
+
+
+/* ------------------------------------------------------ */
+.contactUs__nav-listContainer
+{
+    position: absolute;
+    width: 500px;
+    right: 120px;
+}
+
+.contactUs__nav-listContainer-list
+{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+.contactUs__nav-listContainer-item,
+.contactUs__nav-listContainer-item2
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contactUs__nav-listContainer-item-LoginBtn,
+.contactUs__nav-listContainer-item-LoginBtn2
+{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.contactUs__nav-listContainer-item-LoginBtn:hover,
+.contactUs__nav-listContainer-item-LoginBtn2:hover
+{
+    cursor: pointer;
+}
+.contactUs__nav-listContainer-itemholder :hover,
+.contactUs__nav-listContainer-itemholder2 :hover
+{
+    color: #9f7de8; 
+    transition: 0.3s;
+}
+
+
+/*---------------------------------------- detailProduct__body =================================*/
+
+/* Div Container */
+.detailProduct__body--CardProductContainer
+{
+    background-color:  black;
+    position: relative;
+    width: 950px;
+    height: 600px;
+    left: 300px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.detailProduct__body--CardProductContainer_Info
+{
+    height: 136px;
+    width: 500px;
+    padding: 20px 0px;
+    background-color: black;
+    position: relative;
+    top: -10px;
+}
+
+.detailProduct__body--CardProductContainer_Info-content
+{
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+}
+
+.detailProduct__body--CardProductContainer-moreDetail
+{
+    background-color: black;
+}
+.detailProduct__body--CardProductContainer-moreDetail-name
+{
+    color: white;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    position: relative;
+    top: -50px;
+    left: 25px;
+}
+.detailProduct__body--CardProductContainer-moreDetail-code
+{
+    color: white;
+    font-size: 15px;
+    position: relative;
+    top: -97px;
+    left: 25px;
+}
+.detailProduct__body--CardProductContainer-moreDetail-price
+{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: -95px;
+    left: 25px;
+
+}
+.detailProduct__body--CardProductContainer-moreDetail-inputContainer
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -95px;
+    color: white;
+    left: 25px;
+}
+
+.detailProduct__body--CardProductContainer-moreDetail-label
+{
+    margin-bottom: 5px;
+}
+
+.detailProduct__body--CardProductContainer-moreDetail-input
+{
+    height: 52px;
+    width: 62px;
+    padding:0 25px 0 20px;
+    border: none;
+    outline: none;
+}
+
+.detailProduct__body--CardProductContainer-moreDetail-inputHolder
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.detailProduct__body--CardProductContainer-moreDetail-inputButtonHolder
+{
+    background-color: white;
+}
+
+.detailProduct__body--CardProductContainer-moreDetail-btn
+{
+    height: 20px;
+    width: 20px;
+    justify-content: center;
+    align-self: center;
+    padding-right: 16px;
+    border: none;
+    outline: none;
+}
+
+.detailProduct__body--CardProductContainer-moreDetail-btn:hover
+{
+    cursor: pointer;
+}
+
+.detailProduct__body--CardProductContainer-moreDetail-Ascbtn
+{
+    position: relative;
+    
+}
+
+.detailProduct__body--CardProductContainer-moreDetail-Descbtn
+{
+    position: relative;
+    top: 10px;
+}
+.detailProduct__body--CardProductContainer-moreDetail-inputButtonHolder
+{
+    width: 25px;
+    position: relative;
+    left: -25px;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.detailProduct__body--CardProductContainer-moreDetail-inputHolder:hover
+{
+    .detailProduct__body--CardProductContainer-moreDetail-inputButtonHolder
+    {
+        opacity: 1;
+    }
+}
+
+.detailProduct__body--CardProductContainer-moreDetail-AddButton
+{
+    height: 40px;
+    width: 400px;
+    background-color: #9f7de8;
+    border-radius: 30px;
+    border:none;
+    outline: none;
+    position: relative;
+    left: 25px;
+    color: white;
+    top: -50px;
+}
+.detailProduct__body--CardProductContainer-moreDetail-AddButton:hover
+{
+    cursor: pointer;
+    background-color: blueviolet;
+}
+
+
+.detailProduct__body--CardProductContainer-moreDetail-InfoTittle
+{
+    position: relative;
+    left: 25px;
+    color: white;
+    top: -30px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.detailProduct__body--CardProductContainer-moreDetail-InfoContent
+{
+    position: relative;
+    left: 25px;
+    width: 400px;
+    color: white;
+    top: -30px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 17px;
+}
