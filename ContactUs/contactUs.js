@@ -11,10 +11,6 @@ var iconInfoDic2 = document.querySelector('.contactUs__container-questionContain
 var iconInfoDic3 = document.querySelector('.contactUs__container-questionContainer-switch3IconHolder')
 
 
-var contactUs__container_LoginNofitication = document.querySelector('.contactUs__container-LoginNofitication')
-var contactUs_nav_listContainer_item_LoginBtn = document.querySelector('.contactUs__nav-listContainer-item-LoginBtn')
-var contactUs__nav_listContainer_item_LoginBtn2 = document.querySelector('.contactUs__nav-listContainer-item-LoginBtn2')
-var contactUs__container_LoginNofitication_btn = document.querySelector('.contactUs__container-LoginNofitication-btn')
 
 
 
@@ -57,7 +53,7 @@ switchInfo_btn.addEventListener('click', function() {
 })
 
 
-
+//================================ Message Fixed Button========================
 
 var messageButton = document.querySelector('.contactUs__container-COntainerFixedButton-btn')
 var messageBlock = document.querySelector('.contactUs__container-COntainerFixedButton')
@@ -72,6 +68,11 @@ contactUs__container_COntainerFixedButton_nav_btn.addEventListener('click', func
 })
 
 // ------------------------------Login Nofitication----------------------------
+
+var contactUs__container_LoginNofitication = document.querySelector('.contactUs__container-LoginNofitication')
+var contactUs_nav_listContainer_item_LoginBtn = document.querySelector('.contactUs__nav-listContainer-item-LoginBtn')
+var contactUs__nav_listContainer_item_LoginBtn2 = document.querySelector('.contactUs__nav-listContainer-item-LoginBtn2')
+var contactUs__container_LoginNofitication_btn = document.querySelector('.contactUs__container-LoginNofitication-btn')
 
 contactUs_nav_listContainer_item_LoginBtn.addEventListener('click', function() {
     contactUs__container_LoginNofitication.classList.toggle('appearNofitication')
