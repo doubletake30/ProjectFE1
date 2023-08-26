@@ -1,0 +1,1197 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.contactUs__container-nav
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+.contactUs__nav-logoContainer
+{
+    position: relative;
+    top: 0px;
+    left: 120px;
+}
+
+.contactUs__nav-logoContainer-name
+{
+    position: absolute;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    top: 15px;
+    left: 65px;
+}
+/* --------------------Menu Responsive--------------- */
+.contactUs__nav-listContainer2
+{
+    background-color: black;
+    width: 750px;
+    height: 300px;
+    display: none;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    left: px;
+    border: 1px solid white;
+    transition: all 0.3 ease;
+}
+.contactUs__nav-listContainer2.openMenu
+{
+    display: flex;
+}
+.contactUs__nav-listContainer-list2
+{
+    list-style: none;
+    position: relative;
+    left: 300px;
+}
+.contactUs__nav-listContainer-itemholder2
+{
+    margin: 35px 8px;
+}
+.contactUs__nav-listContainer-Menubtn
+{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border: 1px solid white;
+    text-align: center;
+    display: none;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+    right: 100px;
+    padding-top: 5px;
+}
+.contactUs__nav-listContainer-Menubtn:hover
+{
+    cursor: pointer;
+}
+/* ------------------------------------------------------ */
+.contactUs__nav-listContainer
+{
+    position: absolute;
+    width: 500px;
+    right: 120px;
+}
+
+.contactUs__nav-listContainer-list
+{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+.contactUs__nav-listContainer-item,
+.contactUs__nav-listContainer-item2
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contactUs__nav-listContainer-item-LoginBtn,
+.contactUs__nav-listContainer-item-LoginBtn2
+{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.contactUs__nav-listContainer-item-LoginBtn:hover,
+.contactUs__nav-listContainer-item-LoginBtn2:hover
+{
+    cursor: pointer;
+}
+.contactUs__nav-listContainer-itemholder :hover,
+.contactUs__nav-listContainer-itemholder2 :hover
+{
+    color: #9f7de8; 
+    transition: 0.3s;
+}
+
+.contactUs__container-body-tittleContainer
+{
+    height: 170px;
+    width: 100%;
+    background-color: black;
+    position: relative; 
+    display: flex;
+}
+
+.contactUs__container-body-tittle
+{
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    top:-30px;
+    left: 90px;
+}
+
+
+
+.contactUs__container-body-infor-subtittle, 
+.contactUs__container-body-infor-inforContainer-email,
+.contactUs__container-body-infor-inforContainer-phone,
+.contactUs__container-body-infor-inforContainer-address,
+.contactUs__container-body-infor-map
+{
+    position: relative;
+    color: white;
+    left: 90px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+
+}
+
+.contactUs__container-body-infor-subtittle,
+.contactUs__container-body-infor-inforContainer-address
+{
+    padding-bottom: 40px;
+}
+
+
+
+
+.contactUs__container-body-form-name,
+.contactUs__container-body-form-info
+{
+    display: flex;
+}
+.contactUs__container-body-form-message
+{
+    display: flex;
+    flex-direction: column;
+}
+.contactUs__container-body-form-nameholder,
+.contactUs__container-body-form-infoholder
+{
+    display: flex;
+    flex-direction: column;
+    left: 5px;
+}
+
+.contactUs__container-body-form-label
+{
+    color: white;
+    font-size: 17px;
+    position: relative;
+    font-family: 'Source Code Pro', monospace;
+    left: 20px;
+    margin: 10px 0;
+
+}
+
+#contactUs__container-body-form-name-first,
+#contactUs__container-body-form-info-email
+{
+    background-color: black;
+    border-radius: 20px 0 0 0;
+    border-color: #8858ed;
+    font-family: 'Source Code Pro', monospace;
+    height: 45px;
+    width: 200px;
+    color: white;
+}
+
+
+
+#contactUs__container-body-form-name-last,
+#contactUs__container-body-form-info-phone
+{
+    background-color: black;
+    border-radius: 0 20px 0 0;
+    border-color: #8858ed;
+    font-family: 'Source Code Pro', monospace;
+    height: 45px;
+    width: 200px;
+    color: white;
+}
+
+#contactUs__container-body-form-info-email,
+#contactUs__container-body-form-info-phone
+{
+    border-radius: 0 0 0 0;
+}
+
+#contactUs__container-body-form-name-first:hover,
+#contactUs__container-body-form-info-email:hover,
+#contactUs__container-body-form-info-phone:hover,
+#contactUs__container-body-form-name-last:hover,
+#contactUs__container-body-form-info-phone:hover
+{
+    background-color: #8858ed;
+    cursor: text;
+    border: 2px solid white;
+}
+
+.contactUs__container-body-form
+{
+    position: relative;
+    left: 180px;
+    top: 40px;
+    background-color: black;
+}
+
+.contactUs__container-body-infor
+{
+    background-color: black;
+    width: 750px;
+    /* background-color: #43b72a; */
+}
+
+.contactUs__container-body
+{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px; 
+}
+
+
+
+#contactUs__container-body-form-mesage-input
+{
+    background-color: black;
+    border-color: #8858ed;
+    height: 200px;
+    width: 410px;
+    color: white;
+}
+
+#contactUs__container-body-form-mesage-input:hover
+{
+    background-color: #8858ed;
+    cursor: text;
+    border: 2px solid white;
+}
+
+.contactUs__container-body-form-mesage-submit
+{
+    background-color: #8858ed;
+    border-radius: 0 0 20px 20px;
+    border-color: transparent;
+    height: 50px;
+    width: 417px;
+    color: white;
+    font-weight: 600;
+}
+
+.contactUs__container-body-form-mesage-submit:hover
+{
+    border-color: white;
+    cursor: pointer;
+}
+
+
+/* ----------------------------------- CSS CỦA PHẦN MÀU TÍM ---------------------------------------------*/
+
+/* questionContainer Block */
+.contactUs__container-questionContainer
+{
+    width: 100%;
+    height: 780px;
+    background-color: #461959;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* Question Tittle */
+.contactUs__container-questionContainer-tittleHolder
+{
+    position: absolute;
+    height: 50px;
+    width: 700px;
+    top: -25px;
+    left: 435px;
+    
+}
+
+.contactUs__container-questionContainer-tittle
+{
+    color: white;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+/* Question Search Box */
+
+.contactUs__container-questionContainer-searchBox
+{
+    
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+
+
+    position: absolute;
+    top: 130px;
+    left: 1300px;
+    overflow: hidden;
+    transition: all 1.5s ease;
+}
+
+.contactUs__container-questionContainer-tittle-searchBox
+{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 128px;
+    font-family: 'Source Code Pro', monospace;
+    left: 610px;
+    transition: all 1s ease;
+}
+
+.contactUs__container-questionContainer-tittle-searchBox.open
+{
+    opacity: 0;
+}
+
+.contactUs__container-questionContainer-searchBox.open
+{
+    width: 900px;
+    left: 300px;
+}
+
+.contactUs__container-questionContainer-searchBox-btn
+{
+    position: absolute;
+    right:0px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    outline-color: transparent;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.contactUs__container-questionContainer-searchBox-btn:hover
+{
+    background-color: #333;
+    outline: 1px solid white;
+}
+
+.contactUs__container-questionContainer-searchBox-input
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    padding-left: 30px;
+}
+
+/* button block */
+.contactUs__container-questionContainer-buttonHolder
+{
+    position: absolute;
+    width: 700px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    top: 190px;
+    left: 250px;
+}
+
+.contactUs__container-questionContainer-buttonHolder-generalBox,
+.contactUs__container-questionContainer-buttonHolder-settingBox
+{
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+    font-family: 'Source Code Pro', monospace;
+    outline: none;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.contactUs__container-questionContainer-buttonHolder-generalBox:hover,
+.contactUs__container-questionContainer-buttonHolder-settingBox:hover
+{
+    cursor: pointer;
+    color: #8858ed;
+}
+
+.contactUs__container-questionContainer-buttonHolder-generalBox
+{
+    margin-right: 15px;
+}
+
+/* Switch Info Block */
+.contactUs__container-questionContainer-switchInfoHolder
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    width: 1000px;
+    top: 250px;
+    left: 250px;
+   
+}
+
+
+
+.contactUs__container-questionContainer-switchInfoHolder.clickSwitchButton
+{
+    opacity: 0;
+}
+
+.contactUs__container-questionContainer-switch1,
+.contactUs__container-questionContainer-switch2,
+.contactUs__container-questionContainer-switch3
+{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    position: relative;
+
+}
+
+.contactUs__container-questionContainer-switch1Button,
+.contactUs__container-questionContainer-switch2Button,
+.contactUs__container-questionContainer-switch3Button
+{
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Source Code Pro', monospace;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 1000px;
+}
+
+.contactUs__container-questionContainer-switch1Button:hover,
+.contactUs__container-questionContainer-switch2Button:hover,
+.contactUs__container-questionContainer-switch3Button:hover
+{
+    cursor: pointer;
+    color: #73777B;
+}
+
+
+.contactUs__container-questionContainer-switch1Button,
+.contactUs__container-questionContainer-switch1IconHolder,
+.contactUs__container-questionContainer-switch2Button,
+.contactUs__container-questionContainer-switch2IconHolder,
+.contactUs__container-questionContainer-switch3Button,
+.contactUs__container-questionContainer-switch3IconHolder,
+.contactUs__container-questionContainer-devideCross
+{
+    margin-bottom: 25px;
+}
+
+.contactUs__container-questionContainer-switch1IconHolder,
+.contactUs__container-questionContainer-switch2IconHolder,
+.contactUs__container-questionContainer-switch3IconHolder
+{
+    margin-top: 25px;
+}
+
+.contactUs__container-questionContainer-switch1Icons,
+.contactUs__container-questionContainer-switch2Icons,
+.contactUs__container-questionContainer-switch3Icons
+{
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.contactUs__container-questionContainer-switch1IconHolder,
+.contactUs__container-questionContainer-switch2IconHolder,
+.contactUs__container-questionContainer-switch3IconHolder
+{
+    opacity: 1;
+}
+
+
+/* .contactUs__container-questionContainer-switch1IconHolder.switchInfoSubHolder-Change,
+.contactUs__container-questionContainer-switch2IconHolder.switchInfoSubHolder-Change2,
+.contactUs__container-questionContainer-switch3IconHolder.switchInfoSubHolder-Change3
+{
+    opacity: 1;
+} */
+
+
+.contactUs__container-questionContainer-switch1Content,
+.contactUs__container-questionContainer-switch2Content,
+.contactUs__container-questionContainer-switch3Content
+{
+    color: white;
+    font-size: 15px;
+}
+
+
+/* .contactUs__container-questionContainer-switch1Content.switchInfoSubHolder-Change,
+.contactUs__container-questionContainer-switch2Content.switchInfoSubHolder-Change2,
+.contactUs__container-questionContainer-switch3Content.switchInfoSubHolder-Change3
+{
+    font-size: 15px;
+} */
+
+.contactUs__container-questionContainer-devideCross
+{
+    
+    height: 2px;
+    width: 100%;
+    background-color: #8858ed;
+}
+
+.contactUs__container-questionContainer-switchInfoSubHolder,
+.contactUs__container-questionContainer-switchInfoSubHolder2,
+.contactUs__container-questionContainer-switchInfoSubHolder3
+{
+    background-color: transparent;
+    height: 100px;
+}
+
+/* .contactUs__container-questionContainer-switchInfoSubHolder.switchInfoSubHolder-Change,
+.contactUs__container-questionContainer-switchInfoSubHolder2.switchInfoSubHolder-Change2,
+.contactUs__container-questionContainer-switchInfoSubHolder3.switchInfoSubHolder-Change3
+{
+    height: 100px;
+} */
+
+
+/*------------------------------ Message Fixed Button------------------ */
+
+
+
+.contactUs__container-COntainerFixedButton
+{
+    background-color: #73777B;
+    height: 450px;
+    width: 330px;
+    position: fixed;
+    bottom: 50px;
+    right: -1000px;
+    border-radius: 30px;
+    outline: 2px solid white;
+   
+    
+    transition: all 0.6s ease;
+}
+
+.contactUs__container-COntainerFixedButton.appearBlock
+{
+    
+    right: 50px;
+   
+}
+/* .contactUs__container-COntainerFixedButton-btn .appearBlock
+{
+    opacity: 0;
+} */
+
+.contactUs__container-COntainerFixedButton-btn
+{
+    position: fixed;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: #9f7de8;
+    right: 0;
+    bottom: 0;
+    outline: none;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    bottom: 55px;
+    right: 55px;
+}
+
+.contactUs__container-COntainerFixedButton-btn:hover
+{
+    cursor: pointer;
+    background-color: #8858ed;
+}
+
+
+.contactUs__container-COntainerFixedButton-nav
+{
+    position: absolute;
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 30px 30px 0 0;
+}
+
+
+.contactUs__container-COntainerFixedButton-nav-LogoInfoDiv
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.contactUs__container-COntainerFixedButton-nav-logo
+{
+    position: relative;
+    top: 5px;
+    left: 1px;
+
+}
+
+.contactUs__container-COntainerFixedButton-subDiv-nav-greenPoint
+{
+    height: 10px;
+    width: 10px;
+    background-color: #43b72a;
+    border-radius: 50%;
+    position: relative;
+    top: -14px;
+    left: 33px;
+}
+
+.contactUs__container-COntainerFixedButton-nav-nameAndState
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.contactUs__container-COntainerFixedButton-nav-name,
+.contactUs__container-COntainerFixedButton-nav-state
+{
+    color: white;
+}
+
+.contactUs__container-COntainerFixedButton-nav-name
+{
+    font-weight: 900;
+}
+
+.contactUs__container-COntainerFixedButton-nav-state
+{
+    font-size: 15px;
+    font-weight: 10;
+}
+
+.contactUs__container-COntainerFixedButton-nav-btn
+{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    top: 25px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.contactUs__container-COntainerFixedButton-nav-btn
+{
+    cursor: pointer;
+}
+
+.contactUs__container-COntainerFixedButton-footer
+{
+    position: absolute;
+    background-color: white;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    border-radius: 0 0 30px 30px;
+}
+
+.contactUs__container-COntainerFixedButton-footer-input
+{
+    border-radius: 0 0 0 30px;
+    border: none;
+    padding-left: 10px;
+    outline: none;
+    width: 78%;
+}
+
+.contactUs__container-COntainerFixedButton-footer-iconHolder
+{
+    position: relative;
+    top: 25px;
+}
+
+.contactUs__container-COntainerFixedButton-footer-icons
+{
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+/*-------------------- Login Nofitication-------------------- */
+.contactUs__container-LoginNofitication
+{
+    height: 300px;
+    width: 600px;
+    background-color: black;
+    border-radius: 30px;
+    border: 2px solid white;
+    position: fixed;
+    top: 200px;
+    left: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik Pixels', cursive;
+    transition: 0.5s ease;
+    transform: translateY(-1000px);
+}
+.contactUs__container-LoginNofitication.appearNofitication
+{
+    transform: translateY(0);
+}
+.contactUs__container-LoginNofitication-content
+{
+    color: white;
+    font-size: 35px;
+}
+
+.contactUs__container-LoginNofitication-btn
+{
+    height: 50px;
+    width: 130px;
+    background-color: #8858ed;
+    border-radius: 10px;
+    border: 1.5px solid white;
+    font-family: 'Rubik Iso', cursive;
+    color: white;
+}
+.contactUs__container-LoginNofitication-btn:hover
+{
+    cursor: pointer;
+    background-color: #9f7de8;
+}
+
+
+.contactUs__container-LoginNofitication-iconHolder
+{
+    position: relative;
+}
+
+
+
+
+
+@media screen and (max-width: 767px)
+{
+    .contactUs__container-body
+    {
+        flex-direction: column;
+        
+    }
+    .contactUs__container-body-form
+    {
+        left: 90px;
+        width: 100px;
+    }
+    .contactUs__container-body-infor-map
+    {
+        width: 400px;
+    }
+    .contactUs__container-body-infor-inforContainer-address
+    {
+        width: 400px;
+    }
+    .contactUs__container-body-infor-inforContainer-email
+    {
+        width: 400px;
+    }
+    .contactUs__container-body-infor-inforContainer-phone
+    {
+        width: 400px;
+    }
+    .contactUs__container-questionContainer-tittleHolder
+    {
+        left: 10px;
+        
+    }
+    .contactUs__container-questionContainer-tittle
+    {
+        position: absolute;
+        left:40px;
+    }
+    .contactUs__container-questionContainer-tittle-searchBox
+    {
+        left: 250px;
+    }
+    .contactUs__container-questionContainer-searchBox
+    {
+        
+        left: 600px;
+    }
+    .contactUs__container-questionContainer-buttonHolder
+    {
+        left:50px;
+        position: absolute;
+    }
+    .contactUs__container-questionContainer-searchBox.open
+    {
+        width: 650px;
+        left: 50px;
+    }
+    .contactUs__container-questionContainer-tittle-searchBox.open
+    {
+        opacity: 0;
+    }
+    .contactUs__container-questionContainer-switchInfoHolder
+    {
+        left: 20px;
+    }
+    .contactUs__container-questionContainer-devideCross
+    {
+        width: 700px;
+    }
+    .contactUs__container-questionContainer-switch1,
+    .contactUs__container-questionContainer-switch2,
+    .contactUs__container-questionContainer-switch3
+    {
+        width: 700px;
+    }
+    .contactUs__container-questionContainer-switch1Button,
+    .contactUs__container-questionContainer-switch2Button,
+    .contactUs__container-questionContainer-switch3Button
+    {
+        position: relative;
+        left: 10px;
+        width: 700px;
+    }
+    .contactUs__container-questionContainer-switchInfoHolder
+    {
+        width: 400px;
+    }
+    .contactUs__container-body-infor-subtittle
+    {
+        width: 300px;
+    }
+    .contactUs__container-body-form-message
+    {
+        width: 400px;
+    }
+    .contactUs__container-questionContainer
+    {
+        height: 800px;
+        background-repeat: repeat;
+    }
+    .contactUs__nav-listContainer-list
+    {
+        display: none;
+    }
+    .contactUs__nav-listContainer-Menubtn
+    {
+        display: flex;
+    }
+    .contactUs__container-LoginNofitication
+    {
+        left: 80px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width:1023px) {
+    .contactUs__container-body
+    {
+        flex-direction: column;
+        
+    }
+    .contactUs__container-body-form
+    {
+        left: 90px;
+        width: 100px;
+    }
+    .contactUs__container-body-infor-map
+    {
+        width: 400px;
+    }
+    .contactUs__container-body-infor-inforContainer-address
+    {
+        width: 400px;
+    }
+    .contactUs__container-body-infor-inforContainer-email
+    {
+        width: 400px;
+    }
+    .contactUs__container-body-infor-inforContainer-phone
+    {
+        width: 400px;
+    }
+    .contactUs__container-questionContainer-tittleHolder
+    {
+        left: 10px;
+        
+    }
+    .contactUs__container-questionContainer-tittle
+    {
+        position: absolute;
+        left:40px;
+    }
+    .contactUs__container-questionContainer-tittle-searchBox
+    {
+        left: 250px;
+    }
+    .contactUs__container-questionContainer-searchBox
+    {
+        
+        left: 600px;
+    }
+    .contactUs__container-questionContainer-buttonHolder
+    {
+        left:50px;
+        position: absolute;
+    }
+    .contactUs__container-questionContainer-searchBox.open
+    {
+        width: 650px;
+        left: 50px;
+    }
+    .contactUs__container-questionContainer-tittle-searchBox.open
+    {
+        opacity: 0;
+    }
+    .contactUs__container-questionContainer-switchInfoHolder
+    {
+        left: 20px;
+    }
+    .contactUs__container-questionContainer-devideCross
+    {
+        width: 700px;
+    }
+    .contactUs__container-questionContainer-switch1,
+    .contactUs__container-questionContainer-switch2,
+    .contactUs__container-questionContainer-switch3
+    {
+        width: 700px;
+    }
+    .contactUs__container-questionContainer-switch1Button,
+    .contactUs__container-questionContainer-switch2Button,
+    .contactUs__container-questionContainer-switch3Button
+    {
+        position: relative;
+        left: 10px;
+        width: 700px;
+    }
+    .contactUs__container-questionContainer-switchInfoHolder
+    {
+        width: 400px;
+    }
+    .contactUs__container-body-infor-subtittle
+    {
+        width: 300px;
+    }
+    .contactUs__container-body-form-message
+    {
+        width: 400px;
+    }
+    .contactUs__nav-listContainer-list
+    {
+        display: none;
+    }
+    .contactUs__nav-listContainer-Menubtn
+    {
+        display: flex;
+    }
+    .contactUs__container-LoginNofitication
+    {
+        left: 80px;
+    }
+}
+
+
+/*==============================FOOTER===================================  */
+footer {
+    padding-bottom: 0;
+      padding: 80px 13% 70px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      /* display: flex; */
+  }
+  
+  nav .navbar .links li a{
+    height: 100%;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    list-style: none;
+  }
+  
+  .footer-logo {
+    width: 48px;
+    height: 48px;
+    vertical-align: middle; 
+    margin-right: 10px; 
+  }
+  
+  .footer-content h4 {
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+    display: inline-block; 
+  }
+  
+  
+  
+  .icon {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+    .footer-content h4 {
+      color: #fff;
+      margin-bottom: 1.5rem;
+      font-size: 20px;
+      display: inline-block;
+      
+    }
+    
+  
+  .footer {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+      gap: 3.5rem;
+      background: black;
+      /* position: absolute; */
+      left: 0;
+      right: 0;
+      /* bottom: 0; */
+  }
+  
+  .footer-content h4{
+      color: #fff;
+      margin-bottom: 1.5rem;
+      font-size: 20px;
+  }
+  
+  .footer-content li {
+      margin-bottom: 16px;
+      text-decoration: none;
+      list-style: none;
+  }
+  
+  .footer-content li a {
+      display: block;
+      color: #d6d6d6;
+      font-size: 15px;
+      font-weight: 400;
+      transition: all .40s ease;
+      text-decoration: none;
+      list-style: none;
+  }
+  
+  .footer-content li a:hover {
+    transform: translateY(-3px) translateX(-5px);
+  }
+  
+  .footer-content a{
+      color: #d6d6d6;
+      font-size: 16px;
+      line-height: 30px;
+      margin: 20px 0;
+      text-decoration: none;
+  }
+  
+  .icons a{
+      display: inline-block;
+      font-size: 22px;
+      color: #d6d6d6;
+      margin-right: 17px;
+      transition: all .40s ease;
+      text-decoration: none;
+  }
+  
+  .icon a:hover {
+      color: #fff;
+      transform: translateY(-5px);
+  }
+    
+  
+  @media (max-width: 1690px) {
+      footer{
+          padding: 50px 5% 40px;
+      }
+  }
+  
+  @media(max-width: 1120px) {
+      .footer {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+          gap: 2rem;
+      }
+  }
+  
+  @media(max-width: 700px) {
+      .footer {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+          gap: 2.5rem;
+      }
+  }  
+  
+  /* BOTTOM FOOTER  */
+  .bottom-footer {
+    /* padding: 80px 13% 70px; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+    background: black;
+    color: #fff;
+    top: auto;
+    /* position: absolute; */
+    display: block;
+    left: 0;
+    right: 0;
+    /* bottom: 0; */
+  }
+  
+  .payment-icons,
+  .media-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .payment-icons i,
+  .media-icons i {
+    margin-right: 35px;
+  }
+  
+  .bottom-footer {
+      border-top: 1px solid #666666; 
+  }
+
+
