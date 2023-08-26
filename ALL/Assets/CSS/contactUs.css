@@ -497,7 +497,6 @@ body
 .contactUs__container-body-form
 {
     position: relative;
-    left: 180px;
     top: 40px;
     background-color: black;
 }
@@ -514,6 +513,7 @@ body
     display: flex;
     flex-direction: row;
     padding-bottom: 50px; 
+    justify-content: space-around;
 }
 
 
