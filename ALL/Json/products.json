@@ -1,0 +1,32 @@
+[
+    {
+      "name": "Gameflow Black",
+      "price": "$900.00",
+      "imageSrc": "/ALL/Assets/Image/c837a6_235d9b7973a240feabdd9097b36d88b3mv2.jpg"
+    },
+    {
+      "name": "Playbox XZ Gold Edition",
+      "price": "$1,000.00",
+      "imageSrc": "/All/Assets/Image/c837a6_0ad63666dfda498c87e59e0424307682mv2.jpg"
+    },
+    {
+      "name": "L503 Headset",
+      "price": "$26.69",
+      "imageSrc": "/All/Assets/Image/c837a6_c72ff914003b481ea856501f453e2bb3mv2.jpg"
+    },
+    {
+      "name": "Echo Headset",
+      "price": "$39.99",
+      "imageSrc": "/All/Assets/Image/c837a6_9a2583f0a17e48efb075913d90da0dbfmv2.jpg"
+    },
+    {
+      "name": "Impact Gaming Chair",
+      "price": "$159.99",
+      "imageSrc": "/All/Assets/Image/c837a6_5f84ce55a94f43e5a61445ef199f37e6mv2.jpg"
+    },
+    {
+      "name": "Mach Gaming Chair",
+      "price": "$116.99",
+      "imageSrc": "/All/Assets/Image/c837a6_85410586580e46ce94659e34046a48c8mv2.jpg"
+    }
+  ]
