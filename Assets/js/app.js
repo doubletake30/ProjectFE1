@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   
   function fetchProducts() {
-    fetch('/ALL/Json/products.json')
+    fetch('/Json/products.json')
       .then(response => response.json())
       .then(products => {
         const listProductContainer = document.querySelector('.list_product');
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
           productContainer.className = 'product__container';
   
           const productLink = document.createElement('a');
-          productLink.href = `/ALL/Page/DetailProduct.html?id=${product.id}`; 
+          productLink.href = `/Page/DetailProduct.html?id=${product.id}`; 
           productLink.className = 'product__link';
 
   
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
           productInforContainer.className = 'product_infor__container';
   
           const productInforLink = document.createElement('a');
-          productInforLink.href = `/ALL/Page/DetailProduct.html?id=${product.id}`; 
+          productInforLink.href = `/Page/DetailProduct.html?id=${product.id}`; 
           productInforLink.className = 'product_infor';
   
           const inforContainer = document.createElement('div');

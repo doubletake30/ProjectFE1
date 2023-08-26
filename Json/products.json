@@ -21,18 +21,18 @@
       "id": "4",
       "name": "Echo Headset",
       "price": "$39.99",
-      "imageSrc": "/All/Assets/Image/c837a6_9a2583f0a17e48efb075913d90da0dbfmv2.jpg"
+      "imageSrc": "/Assets/Image/c837a6_9a2583f0a17e48efb075913d90da0dbfmv2.jpg"
     },
     {
       "id": "5",
       "name": "Impact Gaming Chair",
       "price": "$159.99",
-      "imageSrc": "/All/Assets/Image/c837a6_5f84ce55a94f43e5a61445ef199f37e6mv2.jpg"
+      "imageSrc": "/Assets/Image/c837a6_5f84ce55a94f43e5a61445ef199f37e6mv2.jpg"
     },
     {
       "id": "6",
       "name": "Mach Gaming Chair",
       "price": "$116.99",
-      "imageSrc": "/All/Assets/Image/c837a6_85410586580e46ce94659e34046a48c8mv2.jpg"
+      "imageSrc": "/Assets/Image/c837a6_85410586580e46ce94659e34046a48c8mv2.jpg"
     }
   ]
