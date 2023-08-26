@@ -17,8 +17,9 @@ document.addEventListener('DOMContentLoaded', () => {
           productContainer.className = 'product__container';
   
           const productLink = document.createElement('a');
-          productLink.href = '';
+          productLink.href = `/ALL/Page/DetailProduct.html?id=${product.id}`; 
           productLink.className = 'product__link';
+
   
           const productImage = document.createElement('img');
           productImage.src = product.imageSrc;
@@ -32,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
           productInforContainer.className = 'product_infor__container';
   
           const productInforLink = document.createElement('a');
-          productInforLink.href = '';
+          productInforLink.href = `/ALL/Page/DetailProduct.html?id=${product.id}`; 
           productInforLink.className = 'product_infor';
   
           const inforContainer = document.createElement('div');

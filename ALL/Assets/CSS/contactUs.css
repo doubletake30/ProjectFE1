@@ -8,6 +8,7 @@ body
     background-color: black;
     padding: 0;
     margin: 0;
+    font-family: 'Albert Sans', sans-serif;
 }
 
 /* ===================Toan's Nav======================== */
@@ -280,7 +281,6 @@ body
 {
     position: absolute;
     color: white;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     top: 15px;
     left: 65px;
@@ -352,7 +352,6 @@ body
 {
     text-decoration: none;
     color: white;
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
@@ -391,7 +390,6 @@ body
     position: absolute;
     color: white;
     font-size: 70px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     top:-30px;
     left: 90px;
@@ -408,7 +406,6 @@ body
     position: relative;
     color: white;
     left: 90px;
-    font-family: 'Source Code Pro', monospace;
     font-weight: 700;
 
 }
@@ -445,7 +442,6 @@ body
     color: white;
     font-size: 17px;
     position: relative;
-    font-family: 'Source Code Pro', monospace;
     left: 20px;
     margin: 10px 0;
 
@@ -457,7 +453,6 @@ body
     background-color: black;
     border-radius: 20px 0 0 0;
     border-color: #8858ed;
-    font-family: 'Source Code Pro', monospace;
     height: 45px;
     width: 200px;
     color: white;
@@ -471,7 +466,6 @@ body
     background-color: black;
     border-radius: 0 20px 0 0;
     border-color: #8858ed;
-    font-family: 'Source Code Pro', monospace;
     height: 45px;
     width: 200px;
     color: white;
@@ -582,7 +576,6 @@ body
 {
     color: white;
     font-size: 45px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
 
@@ -609,7 +602,6 @@ body
     color: white;
     font-size: 25px;
     top: 128px;
-    font-family: 'Source Code Pro', monospace;
     left: 610px;
     transition: all 1s ease;
 }
@@ -673,7 +665,6 @@ body
     background-color: transparent;
     color: white;
     font-size: 17px;
-    font-family: 'Source Code Pro', monospace;
     outline: none;
     border: none;
     transition: all 0.3s ease;
@@ -717,7 +708,6 @@ body
 {
     display: flex;
     flex-direction: column;
-    font-family: 'Source Code Pro', monospace;
     position: relative;
 
 }
@@ -730,7 +720,6 @@ body
     height: 30px;
     color: white;
     font-size: 15px;
-    font-family: 'Source Code Pro', monospace;
     background-color: transparent;
     border: none;
     outline: none;
@@ -1016,7 +1005,6 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Rubik Pixels', cursive;
     transition: 0.5s ease;
     transform: translateY(-1000px);
 }
@@ -1037,7 +1025,6 @@ body
     background-color: #8858ed;
     border-radius: 10px;
     border: 1.5px solid white;
-    font-family: 'Rubik Iso', cursive;
     color: white;
 }
 .contactUs__container-LoginNofitication-btn:hover
